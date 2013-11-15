@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+#wrapper, #header, #section, #footer {
+	width: 980px;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*--------------- wrapper --------------*/
+#wrapper {
+	margin: 0 auto;
+}
+
+/*-------------- header -----------------*/
+#header{
+	background-image: url(images/header-bg.jpg);
+	height: 100px;
+}
+.top{
+	height: 60px;
+}
+
+/*---------------- Menu -----------------*/
+#navigation{
+	width: 960px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.mainNav {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.mainNav li {
+	float: left;
+	position: relative;
+	height: 40px;
+	width: 120px;
+/*	background-color: #600;*/
+/*	border: 1px solid #B0C4DE;*/
+}
+.mainNav a {
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	color: #FFF;
+/*	background-color: #600;*/
+/*	text-align: center;*/
+	text-indent: 22px;
+/*	background-image: url(kitchen.jpg);*/
+	background-repeat: no-repeat;
+	font-size: 16px;
+}
+.mainNav li a:hover {
+	color:#FF0;
+	background-image: url(images/nav-t2.jpg);
+	background-color: transparent;
+}
+.mainNav li:hover ul {
+	display: block;
+	background-image: none;
+}
+/*.mainNav li:hover ul li {
+	color: #F90;
+}*/
+.mainNav li ul {
+	display: none;
+	position: absolute;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+/*	background-color: #D8AFAF;*/
+}
+.mainNav li ul li {
+	float: none;
+}
+.mainNav li ul li a {
+/*	border: none;*/
+	background-color: #c6bcb8;
+	color: #900;
+	background-image: none;
+}
+.mainNav li ul li a:hover {
+	background-color:#451e12;
+	background-image: none;
+}
+/*menuOn*/
+.mainNavOn {
+	color: #FF0;
+	line-height: 40px;
+	text-decoration: none;
+	font-size: 16px;
+	background-image: url(images/nav-t2.jpg);
+/*	background-color: #CCC;*/
+	text-indent: 22px;
+}
+
+/*------------- Section Home --------------*/
+#sectionHome {
+	height: 490px;
+}
+
+/*----------- Section Products ------------*/
+#sectionProducts {
+	height: 380px;
+	background-color: #dfdbd1;
+	padding-top: 30px;
+/*	background-image: url(images/wood_bg.jpg);*/
+}
+.photoContent h1 {
+	font-size: 2.6em;
+	font-weight: bold;
+	font-family: "標楷體", Georgia, serif;
+	margin-bottom: 20px;
+	line-height: 1.2em;
+}
+.photoContent p {
+	font-size: 1.6em;
+	font-family: "新細明體", "細明體", Verdana, sans-serif;
+	line-height: 1.6em;
+	letter-spacing: 0.1em;
+	color: #000;
+	margin-bottom: 1em;
+}
+.photoContent {
+	width: 210px;
+	float: left;
+	padding-right: 20px;
+	padding-left: 30px;
+}
+.bigPhoto {
+	width: 480px;
+	float: left;
+}
+.smallPhotoLeft {
+	width: 100px;
+	float: left;
+	text-align: left;
+	margin: 0px;
+	padding-right: 5px;
+	padding-left: 15px;
+}
+.smallPhotoRight {
+	width: 100px;
+	float: right;
+	text-align: left;
+	margin: 0px;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+.smallPhotoLeft ul, .smallPhotoRight ul {
+	list-style-type: none;
+}
+.smallPhoto {
+/*	border: 1px solid #333;*/
+	text-align: center;
+	vertical-align: middle;
+}
+.numberPhoto {
+	font-size: 1.4em;
+/*	text-align: center;*/
+}
+.numberPhoto span {
+	font-size: 0.8em;
+	margin-bottom: 2em;
+	display: block;
+}
+
+/*--------------- footer -------------*/
+#footer {
+	text-align: center;
+	background-image: url(images/footer-bg.jpg);
+	height: 54px;
+	clear: both;
+	line-height: 54px;
+	color: #CCC;
+}
+
