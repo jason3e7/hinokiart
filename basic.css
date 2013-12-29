@@ -140,6 +140,41 @@
 	display: block;
 }
 
+/*----------- Contact ------------*/
+#contact {
+	height: 490px;
+	background-color: #dfdbd1;
+	position: relative;
+}
+
+.contactInfo {
+	width: 600px;
+	position: absolute;
+	left: 40px;
+	top: 40px;
+}
+
+.contactInfo h1 {
+	font-size: 26px;
+	letter-spacing: 0.5em;
+	font-weight: bold;
+	font-family: "標楷體", Georgia, serif;
+	margin-bottom: 24px;
+}
+
+.contactInfo p {
+	font-size: 16px;
+	font-family: "新細明體", "細明體", Verdana, sans-serif;
+	line-height: 24px;
+	color: #5c5c5c;
+}
+
+#contact .map {
+	position: absolute;
+    top: 50px; 
+    right: 50px;	
+}
+
 /*--------------- footer -------------*/
 #footer {
 	text-align: center;
